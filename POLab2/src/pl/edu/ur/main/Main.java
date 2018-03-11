@@ -10,7 +10,7 @@ public class Main {
 
       
     public static void main(String[] args) {
-        System.out.println("Podaj numer zadania");
+        System.out.println("Podaj numer zadania (5 lub 6)");
             Scanner numer = new Scanner(System.in); 
             int j = numer.nextInt();
             switch (j){
@@ -36,7 +36,7 @@ public class Main {
                
             System.out.println(k);
             }
-           
+           break;
             
 }
 }
